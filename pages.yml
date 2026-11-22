@@ -1,0 +1,219 @@
+content:
+  - name: site
+    label: Page content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: name
+        label: Name
+        type: string
+
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - name: title
+            label: Headline
+            type: string
+          - name: lead
+            label: Intro text
+            type: text
+
+      - name: pillars
+        label: Three ways I work (under the map)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            type: string
+          - name: text
+            type: text
+
+      - name: home
+        label: Home city on the map
+        type: object
+        fields:
+          - name: name
+            type: string
+          - name: lon
+            label: Longitude
+            type: number
+          - name: lat
+            label: Latitude
+            type: number
+
+      - name: cities
+        label: Map cities
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            type: string
+          - name: lon
+            label: Longitude (west is negative)
+            type: number
+          - name: lat
+            label: Latitude (south is negative)
+            type: number
+          - name: label
+            label: Label position (left, right, above or below)
+            type: string
+          - name: offset
+            label: Move label down (positive) or up (negative), in pixels
+            type: number
+          - name: show_label
+            label: Show name on the map
+            type: boolean
+          - name: mobile
+            label: Show name on phones
+            type: boolean
+
+      - name: highlights_intro
+        label: Highlights intro
+        type: string
+
+      - name: highlights
+        label: Highlights
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: tag
+            label: Small label (dates, place)
+            type: string
+          - name: title
+            type: string
+          - name: text
+            type: text
+          - name: featured
+            label: Large card in the top row
+            type: boolean
+
+      - name: video
+        label: Video
+        type: object
+        fields:
+          - name: embed_url
+            label: YouTube or Vimeo link (leave empty to show the placeholder)
+            type: string
+          - name: placeholder
+            label: Placeholder text
+            type: string
+          - name: title
+            type: string
+          - name: text
+            type: text
+
+      - name: bio
+        label: Biography
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: paragraphs
+            label: Paragraphs
+            type: text
+            list: true
+          - name: facts
+            label: Side facts
+            type: object
+            list: true
+            fields:
+              - name: label
+                type: string
+              - name: text
+                label: Text (one line per item)
+                type: text
+
+      - name: future
+        label: What the future could look like
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: pilots_title
+            label: Civic tech heading
+            type: string
+          - name: pilots_kind
+            label: Civic tech subheading
+            type: string
+          - name: pilots
+            label: Civic tech pilots
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - name: name
+                type: string
+              - name: status
+                label: Status label
+                type: string
+              - name: published
+                label: Live (green label instead of red)
+                type: boolean
+              - name: text
+                type: text
+          - name: groups
+            label: Trainings, advocacy, fundraising, networks
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                type: string
+              - name: kind
+                label: Subheading
+                type: string
+              - name: built_on
+                label: Built on
+                type: text
+              - name: next
+                label: Next
+                type: text
+
+      - name: ai
+        label: AI and our lives
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: text
+            type: text
+          - name: points
+            type: object
+            list: true
+            fields:
+              - name: title
+                type: string
+              - name: text
+                type: text
+          - name: use
+            label: How I use AI
+            type: text
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - name: city
+            type: string
+          - name: email
+            type: string
+          - name: github
+            label: GitHub link
+            type: string
