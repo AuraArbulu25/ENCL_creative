@@ -1,4 +1,4 @@
-# Aura Arbulú Vásquez: personal page
+#  personal page for job application - just for fun
 
 A one-page static site. All the text, figures and map cities live in `content/site.json`, which can be edit in Pages CMS. `index.html` reads that file when the page loads, so there is no build step.
 
