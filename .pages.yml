@@ -179,9 +179,6 @@ content:
               - name: kind
                 label: Subheading
                 type: string
-              - name: built_on
-                label: Built on
-                type: text
               - name: next
                 label: Next
                 type: text
