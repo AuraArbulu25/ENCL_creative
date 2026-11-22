@@ -262,7 +262,7 @@ svg text{font-family:"Public Sans",system-ui,sans-serif}
     $('f-intro').textContent=f.intro||'';
     const pilots=`<div class="group"><div><h3>${esc(f.pilots_title)}</h3><p class="kind">${esc(f.pilots_kind)}</p></div><div class="pilots">`+
       (f.pilots||[]).map(p=>`<div class="pilot"><span class="status ${p.published?'live':'dev'}">${esc(p.status)}</span><h4>${esc(p.name)}</h4><p>${esc(p.text)}</p></div>`).join('')+`</div></div>`;
-    const groups=(f.groups||[]).map(g=>`<div class="group"><div><h3>${esc(g.title)}</h3><p class="kind">${esc(g.kind)}</p></div><div class="pair"><div><b>Built on</b><p>${esc(g.built_on)}</p></div><div><b>Next</b><p>${esc(g.next)}</p></div></div></div>`).join('');
+    const groups=(f.groups||[]).map(g=>`<div class="group"><div><h3>${esc(g.title)}</h3><p class="kind">${esc(g.kind)}</p></div><div class="pair"><div><b>Next</b><p>${esc(g.next)}</p></div></div></div>`).join('');
     $('groups').innerHTML=pilots+groups;
     const ai=d.ai||{};
     $('ai-title').textContent=ai.title||'';
