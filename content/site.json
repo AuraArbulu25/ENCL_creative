@@ -264,10 +264,10 @@
   "bio": {
     "title": "Short biography",
     "paragraphs": [
-      "Aura Arbulú Vásquez is a Peruvian lawyer and public policy specialist based in Berlin, with more than ten years of experience in democratic governance, human rights and civil society.",
+      "I am a Peruvian lawyer and public policy specialist based in Berlin, with more than ten years of experience in democratic governance, human rights and civil society.",
       "Until August 2026 she was Executive Director of the International Federation of Liberal Youth (IFLRY), a global federation of more than 100 member organisations in over 60 countries, where she led strategy, fundraising and donor relations with partners including the Council of Europe and the Friedrich Naumann Foundation.",
       "Before that she drafted legislation as an advisor in the Peruvian Congress and worked on transparency and accountability at Peru's Office of the Comptroller General. Her human rights work began at the Inter-American Commission on Human Rights. She later trained Cuban activists to use the Inter-American system and helped draft reports that Cuban civil society organisations submitted to the Commission.",
-      "She is co-founder of Somos Ciudadanía, a Peruvian civic education NGO, and holds a law degree from Universidad de San Martín de Porres and a Master of Public Policy from the Hertie School."
+      "I co-founded Somos Ciudadanía, a Peruvian civic education NGO, and holds a law degree from Universidad de San Martín de Porres and a Master of Public Policy from the Hertie School."
     ],
     "facts": [
       {
@@ -280,11 +280,11 @@
       },
       {
         "label": "Based in",
-        "text": "Berlin, open to The Hague"
+        "text": "Berlin, work permit in Germany. Open to move."
       },
       {
         "label": "Tools I build with",
-        "text": "Websites on Vercel, chatbots with Typebot, R for data analysis"
+        "text": "Websites on Vercel, chatbots with Typebot, R and python for data analysis."
       }
     ]
   },
@@ -296,47 +296,37 @@
     "pilots": [
       {
         "name": "Ciudad del Papa",
-        "status": "In development",
-        "published": false,
-        "text": "A civic platform for Chiclayo where residents post initiatives and others join them directly."
+        "status": "Published project.",
+        "published": true,
+        "text": "A civic platform for Chiclayo where residents post initiatives and others join them directly.\nwww.ciudaddelpapa.com"
       },
       {
         "name": "Huerequeque bot",
         "status": "Published pilot",
         "published": true,
         "text": "A chatbot built with Somos Ciudadanía to measure waste at local level in a Chiclayo municipality."
-      },
-      {
-        "name": "Clean cities bot",
-        "status": "Planned",
-        "published": false,
-        "text": "Citizens report by WhatsApp with photo and location; the data becomes a weekly report for the municipality."
       }
     ],
     "groups": [
       {
         "title": "Trainings",
-        "kind": "Skills for people under pressure",
-        "built_on": "Courses on the Inter-American human rights system for activists (2015 to 2020) and the Female Leadership Academy in Morocco and Jordan.",
-        "next": "Practical trainings on UN, Inter-American and Council of Europe mechanisms, run with local partners and in their own language."
+        "kind": "Skills for activits, students, people interested",
+        "next": "Practical trainings on UN, Inter-American and Council of Europe mechanisms like the European Court of Human Rights, run with local partners and in their own language."
       },
       {
         "title": "Advocacy campaigns",
-        "kind": "Legal analysis with a clear public ask",
-        "built_on": "Legislation in the Peruvian Congress on gender violence and harassment, and a closed seminar on queer rights in Turkey run with full participant safety.",
-        "next": "Campaigns that defend protest and association rights when emergency or security laws expand, pairing ECNL's legal analysis with partners' voices."
+        "kind": "Legal analysis ",
+        "next": "Campaigns that defend protest and association rights when emergency or security laws expand, pairing ECNL's legal analysis with partners' voices, analysis of legislation of using of videocameras for safety."
       },
       {
         "title": "Fundraising campaigns",
         "kind": "Funding that lasts",
-        "built_on": "Multi-donor governance at IFLRY and proposals on disinformation, women's empowerment and stronger youth organisations.",
         "next": "Joint proposals with Latin American and European partners, so civic-space work is not dependent on a few donors."
       },
       {
         "title": "Networks",
         "kind": "Lessons that travel both ways",
-        "built_on": "A federation of more than 100 organisations, and cooperation agreements between audit institutions across Latin America.",
-        "next": "Connecting European and Latin American civic-space organisations, so what works in one region reaches the other."
+        "next": "Connecting European, Asian, and Latin American civic-space organisations, so what works in one region reaches the other."
       }
     ]
   },
