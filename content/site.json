@@ -6,16 +6,16 @@
   },
   "pillars": [
     {
-      "title": "Working the the law",
+      "title": "Working with the law",
       "text": "Drafting legislation in Peru, petitions at the Inter-American Commission, and reports for human rights activists."
     },
     {
       "title": "Building networks",
-      "text": "Led a global youth federation. Implemented trainings globally. Shaped human connections."
+      "text": "Led a global youth federation and ran trainings around the world, building lasting connections between people."
     },
     {
       "title": "Participatory democracy",
-      "text": "Creating tools to promote participation of citizens. Civic tech, with creative twist."
+      "text": "Creating tools that help citizens take part. Civic tech with a creative twist."
     }
   ],
   "home": {
@@ -265,9 +265,9 @@
     "title": "Short biography",
     "paragraphs": [
       "I am a Peruvian lawyer and public policy specialist based in Berlin, with more than ten years of experience in democratic governance, human rights and civil society.",
-      "Until August 2026 I  was Executive Director of the International Federation of Liberal Youth (IFLRY), a global federation of more than 100 member organisations in over 60 countries, where I led strategy, fundraising and donor relations with partners, together with the board.",
+      "Until August 2026 I  was Executive Director of the International Federation of Liberal Youth (IFLRY), a global federation of more than 100 member organisations in over 60 countries, where, together with the board, I led strategy, fundraising and donor relations",
       "Before that, I drafted legislation as an advisor in the Peruvian Congress and worked on transparency and accountability at Peru's Office of the Comptroller General. My human rights work began at the Inter-American Commission on Human Rights. I later trained Cuban activists to use the Inter-American system and helped draft reports that Cuban civil society organisations submitted to the Commission.",
-      "I co-founded Somos Ciudadanía, a Peruvian civic education NGO, and holds a law degree from Universidad de San Martín de Porres and a Master of Public Policy from the Hertie School."
+      "I co-founded Somos Ciudadanía, a Peruvian civic education NGO, and hold a law degree from Universidad de San Martín de Porres and a Master of Public Policy from the Hertie School."
     ],
     "facts": [
       {
@@ -280,23 +280,23 @@
       },
       {
         "label": "Based in",
-        "text": "Berlin, work permit in Germany. Open to move."
+        "text": "Berlin, with a work permit for Germany. Open to relocating."
       },
       {
         "label": "Tools I build with",
-        "text": "Websites on Vercel, chatbots with Typebot, R and python for data analysis."
+        "text": "Websites on Vercel, chatbots with Typebot, R and Python for data analysis."
       }
     ]
   },
   "future": {
     "title": "What the future could look like",
-    "intro": "Ideas for ECNL's democracy portfolio, each built on something I have already done.",
+    "intro": "Ideas for ECNL's democracy portfolio.",
     "pilots_title": "Civic tech pilots",
     "pilots_kind": "Small tools that let people take part",
     "pilots": [
       {
         "name": "Ciudad del Papa",
-        "status": "Published project.",
+        "status": "Published pilot",
         "published": true,
         "text": "A civic platform for Chiclayo where residents post initiatives and others join them directly.\nwww.ciudaddelpapa.com"
       },
@@ -310,8 +310,8 @@
     "groups": [
       {
         "title": "Trainings",
-        "kind": "Skills for activits, students, people interested",
-        "next": "Practical trainings on UN, Inter-American and Council of Europe mechanisms like the European Court of Human Rights, run with local partners and in their own language."
+        "kind": "Skills for activits, students, and anyone interested.",
+        "next": "Practical trainings on UN, Inter-American and Council of Europe mechanisms such as the European Court of Human Rights, run with local partners and in their own language."
       },
       {
         "title": "Advocacy campaigns",
@@ -326,13 +326,13 @@
       {
         "title": "Networks",
         "kind": "Lessons that travel both ways",
-        "next": "Connecting European, Asian, and Latin American civic-space organisations, so what works in one region reaches the other."
+        "next": "Connecting European, Asian and Latin American civic-space organisations, so what works in one region reaches the other."
       }
     ]
   },
   "ai": {
     "title": "The use of AI in our daily life",
-    "text": "AI now decides who is seen at a protest, (using to track people with cameras) which posts stay online(trough filtering) and who gets a public service(social credit system). The future and its rules are being shaped every day for governments and builders of technology. It is important that civil society keep a voice in the construction.",
+    "text": "AI now decides who is seen at a protest (through camera tracking), which posts stay online (through filtering) and who gets a public service (through automated eligibility checks). Governments and technology companies are shaping these rules every day, and civil society needs a voice in how they are made.",
     "points": [
       {
         "title": "Assembly",
@@ -347,7 +347,7 @@
         "text": "Digital public services and consultations can leave out people who are already unheard."
       }
     ],
-    "use": "I use AI in the creative process of implementing ideas. Difficult to imagine how the future will look like, but AI is an instrumental part of how that future is being shaped, however, we humans are and we keep remain as the main actor of the process."
+    "use": "I use AI in the creative process of turning ideas into working tools. It is hard to imagine what the future will look like, but AI is shaping it. Even so, we humans are, and must remain, the main actors in that process."
   },
   "contact": {
     "city": "Berlin",
