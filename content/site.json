@@ -1,0 +1,368 @@
+{
+  "name": "Aura Arbulú Vásquez",
+  "hero": {
+    "title": "Democracy is built by people who organise, speak up and take part.",
+    "lead": "I am a Peruvian lawyer and public policy specialist in Berlin. For more than ten years I have worked on democratic governance, human rights and civil society, in Latin America, Europe, Africa, the Middle East and Asia. This page is my expression of interest for Head of Democracy at ECNL."
+  },
+  "pillars": [
+    {
+      "title": "I work with the law",
+      "text": "Drafting legislation in Peru, petitions at the Inter-American Commission, and reports for Cuban civil society."
+    },
+    {
+      "title": "I build networks",
+      "text": "Leading a global federation and running projects with partners across Latin America, Europe, Africa, the Middle East and Asia."
+    },
+    {
+      "title": "I make tools",
+      "text": "Civic tech pilots that let people report, propose and take part, built with AI."
+    }
+  ],
+  "home": {
+    "name": "Berlin",
+    "lon": 13.4,
+    "lat": 52.52
+  },
+  "cities": [
+    {
+      "name": "Guatemala City",
+      "lon": -90.51,
+      "lat": 14.63,
+      "label": "below",
+      "offset": 0,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Port-au-Prince",
+      "lon": -72.34,
+      "lat": 18.54,
+      "label": "right",
+      "offset": 0,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Bogotá",
+      "lon": -74.07,
+      "lat": 4.71,
+      "label": "right",
+      "offset": 0,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Washington",
+      "lon": -77.04,
+      "lat": 38.9,
+      "label": "right",
+      "offset": 0,
+      "show_label": true,
+      "mobile": true
+    },
+    {
+      "name": "Chiclayo",
+      "lon": -79.84,
+      "lat": -6.77,
+      "label": "left",
+      "offset": 0,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Lima",
+      "lon": -77.04,
+      "lat": -12.05,
+      "label": "right",
+      "offset": 4,
+      "show_label": true,
+      "mobile": true
+    },
+    {
+      "name": "Santiago de Chile",
+      "lon": -70.65,
+      "lat": -33.45,
+      "label": "right",
+      "offset": 0,
+      "show_label": true,
+      "mobile": true
+    },
+    {
+      "name": "Dakar",
+      "lon": -17.44,
+      "lat": 14.69,
+      "label": "left",
+      "offset": 0,
+      "show_label": true,
+      "mobile": true
+    },
+    {
+      "name": "Rabat",
+      "lon": -6.84,
+      "lat": 34.02,
+      "label": "left",
+      "offset": 0,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Abidjan",
+      "lon": -4.02,
+      "lat": 5.35,
+      "label": "right",
+      "offset": 4,
+      "show_label": true,
+      "mobile": true
+    },
+    {
+      "name": "Brussels",
+      "lon": 4.35,
+      "lat": 50.85,
+      "label": "left",
+      "offset": -4,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Strasbourg",
+      "lon": 7.75,
+      "lat": 48.58,
+      "label": "left",
+      "offset": 10,
+      "show_label": false,
+      "mobile": false
+    },
+    {
+      "name": "Warsaw",
+      "lon": 21.01,
+      "lat": 52.23,
+      "label": "right",
+      "offset": 0,
+      "show_label": false,
+      "mobile": false
+    },
+    {
+      "name": "Vilnius",
+      "lon": 25.28,
+      "lat": 54.69,
+      "label": "right",
+      "offset": 0,
+      "show_label": false,
+      "mobile": false
+    },
+    {
+      "name": "Stockholm",
+      "lon": 18.07,
+      "lat": 59.33,
+      "label": "left",
+      "offset": -6,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Järna",
+      "lon": 17.57,
+      "lat": 59.09,
+      "label": "left",
+      "offset": 10,
+      "show_label": false,
+      "mobile": false
+    },
+    {
+      "name": "Tallinn",
+      "lon": 24.75,
+      "lat": 59.44,
+      "label": "right",
+      "offset": -4,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Izmir",
+      "lon": 27.14,
+      "lat": 38.42,
+      "label": "left",
+      "offset": 4,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Tbilisi",
+      "lon": 44.79,
+      "lat": 41.72,
+      "label": "right",
+      "offset": -6,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Yerevan",
+      "lon": 44.51,
+      "lat": 40.18,
+      "label": "right",
+      "offset": 14,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Amman",
+      "lon": 35.93,
+      "lat": 31.95,
+      "label": "right",
+      "offset": 8,
+      "show_label": true,
+      "mobile": false
+    },
+    {
+      "name": "Taipei",
+      "lon": 121.56,
+      "lat": 25.03,
+      "label": "left",
+      "offset": 0,
+      "show_label": true,
+      "mobile": true
+    }
+  ],
+  "highlights_intro": "Work that shaped how I think about civic space and participation.",
+  "highlights": [
+    {
+      "tag": "2024 to 2026 · Berlin",
+      "title": "Executive Director, International Federation of Liberal Youth (IFLRY)",
+      "text": "Led strategy, fundraising and donor relations for a global federation of more than 100 member organisations in over 60 countries, with partners including the Council of Europe and the Friedrich Naumann Foundation.",
+      "featured": true
+    },
+    {
+      "tag": "Human rights · Cuba",
+      "title": "Cuban civil society before the Inter-American Commission",
+      "text": "Trained Cuban activists to use the Inter-American human rights system, and helped draft reports that Cuban civil society organisations submitted to the Commission on rights including expression, assembly and association.",
+      "featured": true
+    },
+    {
+      "tag": "2022 to 2024 · Europe, MENA, Latin America",
+      "title": "A €100,000 multi-country portfolio",
+      "text": "Political and civic education programmes in Tallinn, Tbilisi, Bogotá, Rabat, Amman, Brussels and Dakar, including a Female Leadership Academy for women political leaders in Morocco and Jordan.",
+      "featured": false
+    },
+    {
+      "tag": "2017 to 2018 · Congress of Peru",
+      "title": "Six legislative initiatives enacted",
+      "text": "As a legal and political advisor, contributed to Peru's law against non-consensual sharing of intimate images and to anti-sexual-harassment legislation.",
+      "featured": false
+    },
+    {
+      "tag": "2019 to 2021 · Comptroller General of Peru",
+      "title": "Transparency and accountability",
+      "text": "Drafted three legislative initiatives on transparency and public accountability, and negotiated six cooperation agreements with audit institutions across Latin America.",
+      "featured": false
+    }
+  ],
+  "video": {
+    "embed_url": "",
+    "placeholder": "Why I want to lead ECNL's democracy work",
+    "title": "In my own words",
+    "text": "A short video about why civic space matters to me, what I would bring to ECNL, and where I would take the democracy portfolio."
+  },
+  "bio": {
+    "title": "Short biography",
+    "paragraphs": [
+      "Aura Arbulú Vásquez is a Peruvian lawyer and public policy specialist based in Berlin, with more than ten years of experience in democratic governance, human rights and civil society.",
+      "Until August 2026 she was Executive Director of the International Federation of Liberal Youth (IFLRY), a global federation of more than 100 member organisations in over 60 countries, where she led strategy, fundraising and donor relations with partners including the Council of Europe and the Friedrich Naumann Foundation.",
+      "Before that she drafted legislation as an advisor in the Peruvian Congress and worked on transparency and accountability at Peru's Office of the Comptroller General. Her human rights work began at the Inter-American Commission on Human Rights. She later trained Cuban activists to use the Inter-American system and helped draft reports that Cuban civil society organisations submitted to the Commission.",
+      "She is co-founder of Somos Ciudadanía, a Peruvian civic education NGO, and holds a law degree from Universidad de San Martín de Porres and a Master of Public Policy from the Hertie School."
+    ],
+    "facts": [
+      {
+        "label": "Education",
+        "text": "Master of Public Policy, Hertie School, Berlin\nLaw degree (Abogada), Universidad de San Martín de Porres, Lima"
+      },
+      {
+        "label": "Languages",
+        "text": "Spanish (native), English (full professional), German (B1 to B2), Portuguese (comprehension)"
+      },
+      {
+        "label": "Based in",
+        "text": "Berlin, open to The Hague"
+      },
+      {
+        "label": "Tools I build with",
+        "text": "Websites on Vercel, chatbots with Typebot, R for data analysis"
+      }
+    ]
+  },
+  "future": {
+    "title": "What the future could look like",
+    "intro": "Ideas for ECNL's democracy portfolio, each built on something I have already done.",
+    "pilots_title": "Civic tech pilots",
+    "pilots_kind": "Small tools that let people take part",
+    "pilots": [
+      {
+        "name": "Ciudad del Papa",
+        "status": "In development",
+        "published": false,
+        "text": "A civic platform for Chiclayo where residents post initiatives and others join them directly."
+      },
+      {
+        "name": "Huerequeque bot",
+        "status": "Published pilot",
+        "published": true,
+        "text": "A chatbot built with Somos Ciudadanía to measure waste at local level in a Chiclayo municipality."
+      },
+      {
+        "name": "Clean cities bot",
+        "status": "Planned",
+        "published": false,
+        "text": "Citizens report by WhatsApp with photo and location; the data becomes a weekly report for the municipality."
+      }
+    ],
+    "groups": [
+      {
+        "title": "Trainings",
+        "kind": "Skills for people under pressure",
+        "built_on": "Courses on the Inter-American human rights system for activists (2015 to 2020) and the Female Leadership Academy in Morocco and Jordan.",
+        "next": "Practical trainings on UN, Inter-American and Council of Europe mechanisms, run with local partners and in their own language."
+      },
+      {
+        "title": "Advocacy campaigns",
+        "kind": "Legal analysis with a clear public ask",
+        "built_on": "Legislation in the Peruvian Congress on gender violence and harassment, and a closed seminar on queer rights in Turkey run with full participant safety.",
+        "next": "Campaigns that defend protest and association rights when emergency or security laws expand, pairing ECNL's legal analysis with partners' voices."
+      },
+      {
+        "title": "Fundraising campaigns",
+        "kind": "Funding that lasts",
+        "built_on": "Multi-donor governance at IFLRY and proposals on disinformation, women's empowerment and stronger youth organisations.",
+        "next": "Joint proposals with Latin American and European partners, so civic-space work is not dependent on a few donors."
+      },
+      {
+        "title": "Networks",
+        "kind": "Lessons that travel both ways",
+        "built_on": "A federation of more than 100 organisations, and cooperation agreements between audit institutions across Latin America.",
+        "next": "Connecting European and Latin American civic-space organisations, so what works in one region reaches the other."
+      }
+    ]
+  },
+  "ai": {
+    "title": "AI and our lives",
+    "text": "AI now decides who is seen at a protest, which posts stay online and who gets a public service. These are civic freedoms questions, and civil society needs to be in the room where the rules are made.",
+    "points": [
+      {
+        "title": "Assembly",
+        "text": "Facial recognition and surveillance can make people afraid to gather in public."
+      },
+      {
+        "title": "Expression",
+        "text": "Automated moderation shapes what can be said, often with no way to appeal."
+      },
+      {
+        "title": "Participation",
+        "text": "Digital public services and consultations can leave out people who are already unheard."
+      }
+    ],
+    "use": "I build civic tools with it, like the pilots above. The video and the words on this page are my own."
+  },
+  "contact": {
+    "city": "Berlin",
+    "email": "auram.arbulu@gmail.com",
+    "github": "https://github.com/Mochilein30"
+  }
+}

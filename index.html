@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aura Arbulú Vásquez</title>
+<meta name="description" content="Aura Arbulú Vásquez: lawyer and public policy specialist working on democracy, human rights and civil society.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE formal, institutional, personal: an expression of interest for a civic-freedoms post
+   IDEA a civic organisation's annual report: highlights as text cards, evidence before claims
+   PICTURE a map of the cities where Au has worked, linked back to Berlin
+   COLOUR white ground, ink, cobalt fields for hero and AI square, Peruvian red as the one accent
+   TYPE Public Sans throughout (public-sector lettering), weights carry the hierarchy
+   LAYOUT laptop: hero text over a full-width map band; phone: title, map, stats, then sections stacked */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0e1220);--ink:light-dark(#111522,#e9ecf4);--soft:light-dark(#525a6e,#a7aec0);--line:light-dark(#dfe2ea,#2a3045);--panel:light-dark(#f4f6fa,#151a2b);--blue:light-dark(#1d3fa6,#1a3478);--blueink:#ffffff;--red:#d0102a}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Public Sans",system-ui,sans-serif;overflow-x:clip}
+a{color:inherit}
+img{max-width:100%}
+.wrap{max-width:1240px;margin:0 auto}
+.band{padding-block:clamp(36px,5vw,72px);padding-left:max(5vw,16px);padding-right:max(5vw,16px)}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;padding:14px max(5vw,16px)}
+.brand{font-weight:800;text-decoration:none;letter-spacing:-.01em}
+.links{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:15px}
+.links a{text-decoration:none;color:var(--soft);padding:6px 0}
+.links a:hover,.links a:focus-visible{color:var(--ink);text-decoration:underline}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.08;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,5vw,52px);font-weight:800}
+h2{font-size:clamp(28px,3.4vw,40px);font-weight:800;margin-bottom:12px}
+h3{font-size:19px;font-weight:700;line-height:1.25}
+p{margin:0 0 12px}
+.lead{font-size:clamp(17px,1.6vw,20px);max-width:44em}
+.intro{color:var(--soft);max-width:44em;margin-bottom:28px}
+.hero{background:var(--blue);color:var(--blueink)}
+.hero .lead{opacity:.92;margin-top:16px}
+.fig{position:relative;min-height:clamp(300px,38vw,500px);margin-top:28px}
+.citylist{font-size:14px;opacity:.85;margin:10px 0 0;max-width:none}
+.frame.has{padding:0}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));gap:16px;margin-top:24px;border-top:1px solid rgba(255,255,255,.3);padding-top:20px}
+.stat b{display:block;font-size:clamp(20px,2vw,24px);font-weight:800;line-height:1.2;margin-bottom:6px}
+.stat span{font-size:15px;opacity:.9;display:block}
+.cards{display:grid;gap:16px}
+.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.c3{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:16px}
+.card{border:1px solid var(--line);background:var(--bg);padding:22px 22px 18px;display:flex;flex-direction:column;gap:8px}
+.card.big{background:var(--panel)}
+.card.big h3{font-size:22px}
+.tag{font-size:14px;color:var(--soft)}
+.tag .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:6px;vertical-align:1px}
+.card p{margin:0;color:var(--soft)}
+.video{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px;align-items:center}
+.frame{aspect-ratio:16/9;background:var(--blue);color:#fff;display:grid;place-items:center;text-align:center;padding:16px}
+.frame iframe,.frame video{width:100%;height:100%;border:0}
+.play{width:72px;height:72px;border-radius:50%;border:2px solid #fff;display:grid;place-items:center;margin:0 auto 12px}
+.play svg{width:26px;height:26px;margin-left:4px}
+.bio{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;align-items:start}
+.facts{border-top:2px solid var(--ink);padding-top:12px}
+.facts dt{font-size:14px;color:var(--soft);margin-top:12px}
+.facts dd{margin:2px 0 0}
+.future{background:var(--panel)}
+.group{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:24px 40px;padding-block:28px;border-top:1px solid var(--line)}
+.group:first-of-type{border-top:2px solid var(--ink)}
+.group h3{font-size:22px}
+.group .kind{font-size:14px;color:var(--soft);margin-top:6px}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pair div,.pilot{background:var(--bg);border:1px solid var(--line);padding:16px 18px}
+.pair b,.pilot b{display:block;font-size:14px;color:var(--soft);font-weight:600;margin-bottom:4px}
+.pair p,.pilot p{margin:0}
+.pilots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pilot h4{margin:0 0 6px;font-size:17px}
+.status{display:inline-block;font-size:13px;font-weight:600;padding:2px 8px;border:1px solid currentColor;margin-bottom:10px;white-space:nowrap}
+.live{color:#0b7a43}
+.dev{color:var(--red)}
+.ai{background:var(--blue);color:#fff}
+.square{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:40px;align-items:start}
+.square .q{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.q div{border-top:2px solid #fff;padding-top:12px}
+.q h3{font-size:18px;margin-bottom:6px}
+.q p{opacity:.9;margin:0;font-size:15px}
+.use{margin-top:28px;background:rgba(255,255,255,.1);border-left:4px solid var(--red);padding:16px 20px;font-size:17px}
+footer{border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
+footer .wrap > div{display:flex;flex-wrap:wrap;gap:8px 24px}
+.note{font-size:13px;color:var(--soft)}
+svg text{font-family:"Public Sans",system-ui,sans-serif}
+@media(max-width:900px){.c3,.pilots,.square .q{grid-template-columns:repeat(2,minmax(0,1fr))}.square{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:720px){.video,.bio,.group{grid-template-columns:minmax(0,1fr)}.fig{min-height:260px}}
+@media(max-width:600px){.fig{min-height:210px}.c2,.c3,.pilots,.pair,.square .q{grid-template-columns:minmax(0,1fr)}.links{font-size:14px;gap:2px 14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.arc{animation:none!important}}
+.arc{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 1.6s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+</style>
+
+</head>
+<body>
+
+<nav aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top" id="brand"></a>
+    <div class="links">
+      <a href="#highlights">Highlights</a>
+      <a href="#video">Video</a>
+      <a href="#bio">Biography</a>
+      <a href="#future">The future</a>
+      <a href="#ai">AI and our lives</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero band" id="top">
+  <div class="wrap">
+    <h1 id="h-title"></h1>
+    <p class="lead" id="h-lead"></p>
+    <div class="fig" id="map" role="img"><svg id="mapsvg"></svg></div>
+    <p class="citylist" id="citylist"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<section class="band" id="highlights">
+  <div class="wrap">
+    <h2>Highlights</h2>
+    <p class="intro" id="hl-intro"></p>
+    <div class="cards c2" id="hl-featured"></div>
+    <div class="cards c3" id="hl-more"></div>
+  </div>
+</section>
+
+<section class="band" id="video" style="padding-top:0">
+  <div class="wrap video">
+    <div class="frame" id="frame"></div>
+    <div>
+      <h2 id="v-title"></h2>
+      <p id="v-text"></p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="bio" style="border-top:1px solid var(--line)">
+  <div class="wrap bio">
+    <div id="bio-text"></div>
+    <dl class="facts" id="facts"></dl>
+  </div>
+</section>
+
+<section class="band future" id="future">
+  <div class="wrap">
+    <h2 id="f-title"></h2>
+    <p class="intro" id="f-intro"></p>
+    <div id="groups"></div>
+  </div>
+</section>
+
+<section class="band ai" id="ai">
+  <div class="wrap square">
+    <div>
+      <h2 id="ai-title"></h2>
+      <p id="ai-text"></p>
+    </div>
+    <div>
+      <div class="q" id="ai-points"></div>
+      <p class="use"><strong>How I use AI:</strong> <span id="ai-use"></span></p>
+    </div>
+  </div>
+</section>
+
+<footer class="band" id="contact">
+  <div class="wrap" id="foot"></div>
+</footer>
+
+<script>
+{
+  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const $=id=>document.getElementById(id);
+  const ytEmbed=u=>{
+    if(!u)return '';
+    const m=u.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);
+    if(m)return 'https://www.youtube-nocookie.com/embed/'+m[1];
+    const v=u.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if(v)return 'https://player.vimeo.com/video/'+v[1];
+    return u;
+  };
+  let mapData=null;
+  const s=$('mapsvg');
+  const L=-100,R=128,T=64,B=-40;
+  const draw=()=>{
+    if(!mapData)return;
+    const W=s.clientWidth,H=s.clientHeight;
+    if(!W||!H)return;
+    const pad=20;
+    const k=Math.min((W-pad*2)/(R-L),(H-pad*2)/(T-B));
+    const ox=(W-k*(R-L))/2,oy=(H-k*(T-B))/2;
+    const P=(lon,lat)=>[ox+(lon-L)*k,oy+(T-lat)*k];
+    const narrow=W<520;
+    const {home,cities}=mapData;
+    let g='';
+    for(let lon=-100;lon<=120;lon+=20){const [x1,y1]=P(lon,T),[x2,y2]=P(lon,B);g+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="rgba(255,255,255,.1)"/>`;}
+    for(let lat=-40;lat<=60;lat+=20){const [x1,y1]=P(L,lat),[x2,y2]=P(R,lat);g+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="rgba(255,255,255,.1)"/>`;}
+    const [hx,hy]=P(home.lon,home.lat);
+    let arcs='',dots='',labels='';
+    cities.forEach((c,i)=>{
+      const [x,y]=P(+c.lon,+c.lat);
+      const d=Math.hypot(x-hx,y-hy);
+      const mx=(x+hx)/2,my=Math.min(y,hy)-Math.max(14,d*.2);
+      const len=Math.round(d*1.3)+10;
+      arcs+=`<path class="arc" style="--len:${len};animation-delay:${(i*0.05).toFixed(2)}s" d="M${hx},${hy} Q${mx},${my} ${x},${y}" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="1.2"/>`;
+      dots+=`<circle cx="${x}" cy="${y}" r="${narrow?3.5:4.5}" fill="#fff"/>`;
+      const show=narrow?c.mobile:c.show_label;
+      if(show){
+        const off=+c.offset||0;
+        let tx=x,ty=y+4+off,a='middle';
+        if(c.label==='left'){tx=x-9;a='end';}
+        else if(c.label==='right'){tx=x+9;a='start';}
+        else if(c.label==='below'){ty=y+20+off;}
+        else if(c.label==='above'){ty=y-10+off;}
+        labels+=`<text x="${tx}" y="${ty}" text-anchor="${a}" font-size="${narrow?12:13}" fill="#fff">${esc(c.name)}</text>`;
+      }
+    });
+    dots+=`<circle cx="${hx}" cy="${hy}" r="10" fill="none" stroke="#fff" stroke-width="2"/><circle cx="${hx}" cy="${hy}" r="6" fill="#d0102a"/>`;
+    labels+=`<text x="${hx+6}" y="${hy+24}" font-size="14" font-weight="700" fill="#fff">${esc(home.name)}</text>`;
+    s.innerHTML=g+arcs+dots+`<g style="paint-order:stroke;stroke:var(--blue);stroke-width:4px">${labels}</g>`;
+  };
+  const ro=new ResizeObserver(draw);
+  ro.observe(s);
+
+  const render=d=>{
+    document.title=d.name;
+    $('brand').textContent=d.name;
+    $('h-title').textContent=d.hero.title;
+    $('h-lead').textContent=d.hero.lead;
+    const all=[d.home.name,...d.cities.map(c=>c.name)];
+    $('map').setAttribute('aria-label','Map of cities where '+d.name+' has worked or run projects: '+all.join(', ')+'.');
+    $('citylist').textContent=all.join(' · ');
+    $('stats').innerHTML=(d.pillars||[]).map(x=>`<div class="stat"><b>${esc(x.title)}</b><span>${esc(x.text)}</span></div>`).join('');
+    $('hl-intro').textContent=d.highlights_intro||'';
+    const card=(h,big)=>`<article class="card${big?' big':''}"><span class="tag">${big?'<span class="dot"></span>':''}${esc(h.tag)}</span><h3>${esc(h.title)}</h3><p>${esc(h.text)}</p></article>`;
+    const hl=d.highlights||[];
+    $('hl-featured').innerHTML=hl.filter(h=>h.featured).map(h=>card(h,true)).join('');
+    $('hl-more').innerHTML=hl.filter(h=>!h.featured).map(h=>card(h,false)).join('');
+    const v=d.video||{};
+    const src=ytEmbed(v.embed_url);
+    $('frame').innerHTML=src
+      ?`<iframe src="${esc(src)}" title="${esc(v.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`
+      :`<div><div class="play"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M5 3l16 9-16 9z"/></svg></div><strong>${esc(v.placeholder)}</strong></div>`;
+    if(src)$('frame').classList.add('has');
+    $('v-title').textContent=v.title||'';
+    $('v-text').textContent=v.text||'';
+    const b=d.bio||{};
+    $('bio-text').innerHTML=`<h2>${esc(b.title)}</h2>`+(b.paragraphs||[]).map(p=>`<p>${esc(p)}</p>`).join('');
+    $('facts').innerHTML=(b.facts||[]).map(f=>`<dt>${esc(f.label)}</dt>`+String(f.text||'').split('\n').filter(Boolean).map(t=>`<dd>${esc(t)}</dd>`).join('')).join('');
+    const f=d.future||{};
+    $('f-title').textContent=f.title||'';
+    $('f-intro').textContent=f.intro||'';
+    const pilots=`<div class="group"><div><h3>${esc(f.pilots_title)}</h3><p class="kind">${esc(f.pilots_kind)}</p></div><div class="pilots">`+
+      (f.pilots||[]).map(p=>`<div class="pilot"><span class="status ${p.published?'live':'dev'}">${esc(p.status)}</span><h4>${esc(p.name)}</h4><p>${esc(p.text)}</p></div>`).join('')+`</div></div>`;
+    const groups=(f.groups||[]).map(g=>`<div class="group"><div><h3>${esc(g.title)}</h3><p class="kind">${esc(g.kind)}</p></div><div class="pair"><div><b>Built on</b><p>${esc(g.built_on)}</p></div><div><b>Next</b><p>${esc(g.next)}</p></div></div></div>`).join('');
+    $('groups').innerHTML=pilots+groups;
+    const ai=d.ai||{};
+    $('ai-title').textContent=ai.title||'';
+    $('ai-text').textContent=ai.text||'';
+    $('ai-points').innerHTML=(ai.points||[]).map(p=>`<div><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div>`).join('');
+    $('ai-use').textContent=ai.use||'';
+    const c=d.contact||{};
+    const gh=String(c.github||'');
+    $('foot').innerHTML=`<div><strong>${esc(d.name)}</strong><span>${esc(c.city)}</span></div><div>${c.email?`<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>`:''}${gh?`<a href="${esc(gh)}">${esc(gh.replace(/^https?:\/\//,''))}</a>`:''}</div>`;
+    mapData={home:d.home,cities:d.cities||[]};
+    draw();
+  };
+
+  fetch('content/site.json',{cache:'no-store'})
+    .then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
+    .then(render)
+    .catch(()=>{$('h-title').textContent='The page content could not be loaded.';$('h-lead').textContent='Check that content/site.json exists and is valid JSON.';});
+}
+</script>
+</body>
+</html>
