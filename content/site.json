@@ -1,21 +1,21 @@
 {
-  "name": "Aura Arbulú Vásquez",
+  "name": "Aura Arbulú Vásquez - Application",
   "hero": {
-    "title": "Democracy is built by people who organise, speak up and take part.",
-    "lead": "I am a Peruvian lawyer and public policy specialist in Berlin. For more than ten years I have worked on democratic governance, human rights and civil society, in Latin America, Europe, Africa, the Middle East and Asia. This page is my expression of interest for Head of Democracy at ECNL."
+    "title": "Democracy, human rights and the rule of law must continue to be protected",
+    "lead": "I am a Peruvian lawyer and public policy specialist in Berlin. For more than ten years I have worked on democratic governance, human rights and civil society, implementing projects in Latin America, Europe, Africa, the Middle East and Asia. This page is my expression of interest for Head of Democracy at ECNL."
   },
   "pillars": [
     {
-      "title": "I work with the law",
-      "text": "Drafting legislation in Peru, petitions at the Inter-American Commission, and reports for Cuban civil society."
+      "title": "Working the the law",
+      "text": "Drafting legislation in Peru, petitions at the Inter-American Commission, and reports for human rights activists."
     },
     {
-      "title": "I build networks",
-      "text": "Leading a global federation and running projects with partners across Latin America, Europe, Africa, the Middle East and Asia."
+      "title": "Building networks",
+      "text": "Have led a global youth federation. Have implemented trainings globally. Have shape human connections."
     },
     {
-      "title": "I make tools",
-      "text": "Civic tech pilots that let people report, propose and take part, built with AI."
+      "title": "Participatory democracy",
+      "text": "Creating tools to promote participation of citizens. Civic tech, with creative twist."
     }
   ],
   "home": {
@@ -257,7 +257,6 @@
     }
   ],
   "video": {
-    "embed_url": "",
     "placeholder": "Why I want to lead ECNL's democracy work",
     "title": "In my own words",
     "text": "A short video about why civic space matters to me, what I would bring to ECNL, and where I would take the democracy portfolio."
@@ -342,8 +341,8 @@
     ]
   },
   "ai": {
-    "title": "AI and our lives",
-    "text": "AI now decides who is seen at a protest, which posts stay online and who gets a public service. These are civic freedoms questions, and civil society needs to be in the room where the rules are made.",
+    "title": "The use of AI in our daily life",
+    "text": "AI now decides who is seen at a protest, (using to track people with cameras) which posts stay online(trough filtering) and who gets a public service(social credit system). The future and its rules are being shaped every day for governments and builders of technology. It is important that civil society keep a voice in the construction.",
     "points": [
       {
         "title": "Assembly",
@@ -358,7 +357,7 @@
         "text": "Digital public services and consultations can leave out people who are already unheard."
       }
     ],
-    "use": "I build civic tools with it, like the pilots above. The video and the words on this page are my own."
+    "use": "I use AI in the creative process of implementing ideas. Difficult to imagine how the future will look like, but AI is an instrumental part of how that future is being shaped, however, we humans are and we keep remain as the main actor of the process."
   },
   "contact": {
     "city": "Berlin",
